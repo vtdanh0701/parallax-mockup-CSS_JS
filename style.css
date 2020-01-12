@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: relative;
+    z-index: 10;
+}
+.container, .keyart_layer{
+    height: 1000px;
+}
+.keyart_layer{
+    width: 100%;
+    background-size: auto 1038px;
+    background-position: bottom center;
+    position: absolute;
+}
+.keyart_layer.parallax {
+    position: fixed;
+}
+#keyart-scrim {
+    background-color: #ffaf00;
+    opacity: 0;
+}
+#keyart-0{
+    background-image: url(./img/parallax0.png);
+}
+#keyart-1{
+    background-image: url(./img/parallax1.png);
+}
+#keyart-2{
+    background-image: url(./img/parallax2.png);
+    
+}
+#keyart-3{
+    background-image: url(./img/parallax3.png);
+    
+}
+#keyart-4{
+    background-image: url(./img/parallax4.png);
+    
+}
+#keyart-5{
+    background-image: url(./img/parallax5.png);
+    
+}
+#keyart-6{
+    background-image: url(./img/parallax6.png);
+    
+}
+#keyart-7{
+    background-image: url(./img/parallax7.png);
+    
+}
+#keyart-8{
+    background-image: url(./img/parallax8.png);   
+}
+
+.content{
+    background-color: #210002;
+    height: 100vh;
+    color: white;
+    position: relative;
+    z-index: 98;
+    text-align: center;
+    color: #ffaf00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
